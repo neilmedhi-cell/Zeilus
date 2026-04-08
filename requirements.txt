@@ -1,0 +1,27 @@
+# Core dependencies
+groq
+httpx==0.27.0
+python-dotenv==1.0.0
+tiktoken
+elevenlabs==0.2.26  # Voice synthesis
+
+# Optional: Web search (for modules tomorrow)
+duckduckgo-search==4.1.1
+
+# Optional: GitHub integration (for modules tomorrow)
+PyGithub==2.1.1
+
+# Development
+pytest==7.4.3
+black==23.12.1
+
+# Analytics & Personalization
+dateparser==1.1.8    # Parse natural language dates ("tomorrow", "next week")
+
+# MCP Server & Automation
+mcp>=1.0.0           # Model Context Protocol server
+croniter>=1.4.1      # Cron expression parsing for automation scheduler
+
+# VTuber Studio & Avatar
+websockets>=12.0     # WebSocket connection to VTuber Studio API
+Pillow>=10.0.0       # Image processing (avatar sprite assets)

@@ -1,0 +1,100 @@
+{
+  "gated_tasks": [
+    {
+      "id": "f09a9377-006b-4a91-90af-f1cc1e56db69",
+      "title": "Learn Python internals",
+      "description": "Deep dive into Python after exams",
+      "gate_type": "date",
+      "gate_condition": "2026-03-31",
+      "gate_met": true,
+      "status": "active",
+      "target_date": "2026-04-15",
+      "reminder_frequency": "escalating",
+      "created_at": "2026-02-05T09:14:31.410175",
+      "reminders_sent": [
+        "2026-04-05T01:45:30.695896"
+      ]
+    },
+    {
+      "id": "4ce4b068-3d79-44cd-9937-e6f4c1d1026d",
+      "title": "Start new project",
+      "description": "Begin after exams are done",
+      "gate_type": "event",
+      "gate_condition": "exams_complete",
+      "gate_met": true,
+      "status": "active",
+      "target_date": null,
+      "reminder_frequency": "escalating",
+      "created_at": "2026-02-05T09:14:31.412724",
+      "reminders_sent": [
+        "2026-02-05T09:22:39.474741",
+        "2026-02-12T17:18:33.378762",
+        "2026-02-26T22:59:47.911022",
+        "2026-03-19T12:53:03.892851",
+        "2026-04-05T01:45:30.697670"
+      ]
+    },
+    {
+      "id": "c3c82cd0-bfd8-4d10-8c77-4221e4fd9dbb",
+      "title": "Learn Python internals",
+      "description": "Deep dive into Python after exams",
+      "gate_type": "date",
+      "gate_condition": "2026-03-31",
+      "gate_met": true,
+      "status": "active",
+      "target_date": "2026-04-15",
+      "reminder_frequency": "escalating",
+      "created_at": "2026-02-05T09:14:36.262654",
+      "reminders_sent": [
+        "2026-04-05T01:45:30.700206"
+      ]
+    },
+    {
+      "id": "53ae652e-e1b1-413e-a4f0-20f1022033d9",
+      "title": "Start new project",
+      "description": "Begin after exams are done",
+      "gate_type": "event",
+      "gate_condition": "exams_complete",
+      "gate_met": true,
+      "status": "active",
+      "target_date": null,
+      "reminder_frequency": "escalating",
+      "created_at": "2026-02-05T09:14:36.264077",
+      "reminders_sent": [
+        "2026-02-05T09:22:39.475662",
+        "2026-02-12T17:18:33.381049",
+        "2026-02-26T22:59:47.925631",
+        "2026-03-19T12:53:03.895119",
+        "2026-04-05T01:45:30.701940"
+      ]
+    }
+  ],
+  "scheduled_tasks": [
+    {
+      "id": "4e4f79c3-9119-412b-8c58-12ff9b9ac831",
+      "title": "Research octopus",
+      "description": "Learn about octopus intelligence",
+      "scheduled_date": "2026-10-13",
+      "completed": false,
+      "created_at": "2026-02-05T09:14:31.415413",
+      "reminder_sent": false
+    },
+    {
+      "id": "9e21187c-935b-4b6c-beaa-86d9cfd297b9",
+      "title": "Research octopus",
+      "description": "Learn about octopus intelligence",
+      "scheduled_date": "2026-10-13",
+      "completed": false,
+      "created_at": "2026-02-05T09:14:36.265179",
+      "reminder_sent": false
+    }
+  ],
+  "completed_events": [
+    "exams_complete",
+    "exams_complete_complete",
+    "exams_complete_done",
+    "exams complete",
+    "exams_complete"
+  ],
+  "saved_at": "2026-04-05T01:46:21.973698"
+}
